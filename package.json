@@ -1,0 +1,26 @@
+{
+  "name": "library-bundler",
+  "version": "1.0.0",
+  "description": "Bundles a library, and makes it ready to ship for ES6, ES5, CommonJS and UMD",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollton/library-bundler.git"
+  },
+  "author": "holltonliu@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hollton/library-bundler/issues"
+  },
+  "homepage": "https://github.com/hollton/library-bundler#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-istanbul": "^4.1.5",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.5.3"
+  }
+}
